@@ -7,7 +7,8 @@ from flask import send_file
 
 fake = Faker()
 
-app=Flask(__name__)
+app = Flask(__name__)
+
 
 # 1
 @app.route('/requirements/')
